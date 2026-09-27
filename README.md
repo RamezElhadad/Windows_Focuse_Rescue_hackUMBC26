@@ -9,23 +9,23 @@ Windows-only (uses `pywin32` and the Windows registry).
 
 ## Features
 
-- **Foreground-only tracking** — counts time only when an app is focused
+- **Foreground-only tracking**:- counts time only when an app is focused
   and you're actually active (idle detection via last input time)
-- **Per-app daily limits** — set individual minute limits, enabled per app
-- **Blocking overlay** — covers the app when its limit is reached, with:
+- **Per-app daily limits**:- set individual minute limits, enabled per app
+- **Blocking overlay**:- covers the app when its limit is reached, with:
   - "+5 More Minutes" (requires the parent password)
   - "Close App"
-- **Parent lock** — password-protected limit settings, hashed with salted PBKDF2
-- **Theming** — Dark / Light / Match Windows, plus 11 color palettes
-- **Statistics** — today / this week / this month totals, per-app breakdown
+- **Parent lock**:- password-protected limit settings, hashed with salted PBKDF2
+- **Theming**:- Dark / Light / Match Windows, plus 11 color palettes
+- **Statistics**:- today / this week / this month totals, per-app breakdown
 
 ## Tech Stack
 
 - Python 3.10+
 - Tkinter + `ttk`
-- `psutil` — process monitoring
-- `pywin32` — foreground window detection
-- Windows Registry — installed-apps list, system theme detection
+- `psutil` -> process monitoring
+- `pywin32` -> foreground window detection
+- Windows Registry -> installed-apps list, system theme detection
 
 ---
 
@@ -101,5 +101,5 @@ windows-focus-rescue/
 
 ---
 
-**Made with focus** — Windows Focus Rescue  
+**Made with focus**, Windows Focus Rescue  
 The app was made for hackUMBC 2026
