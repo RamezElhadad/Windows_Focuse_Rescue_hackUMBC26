@@ -19,16 +19,6 @@ Windows-only (uses `pywin32` and the Windows registry).
 - **Theming** — Dark / Light / Match Windows, plus 11 color palettes
 - **Statistics** — today / this week / this month totals, per-app breakdown
 
-## Screenshots
-
-> Add screenshots here after you take them
-
-| Dashboard | App Limits | Tracking | Statistics |
-|-----------|------------|----------|------------|
-|           |            |          |            |
-
----
-
 ## Tech Stack
 
 - Python 3.10+
@@ -42,15 +32,13 @@ Windows-only (uses `pywin32` and the Windows registry).
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/windows-focus-rescue.git
+git clone https://github.com/RamezElhadad/windows-focus-rescue.git
 cd windows-focus-rescue
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 ```
-
-(Replace the clone URL once this actually has a repo home.)
 
 ---
 
@@ -113,15 +101,5 @@ windows-focus-rescue/
 
 ---
 
-## Contributing
-
-Pull requests welcome. For anything nontrivial, open an issue first.
-
-## License
-
-No LICENSE file is included yet. Add one (e.g. MIT) before treating this as
-open source — a README claim isn't a license grant on its own.
-
----
-
 **Made with focus** — Windows Focus Rescue
+The app was made for hacUMBC 2026
