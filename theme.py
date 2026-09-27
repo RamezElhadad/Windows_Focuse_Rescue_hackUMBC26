@@ -23,8 +23,7 @@ def shade(hex_color: str, factor: float) -> str:
 # 10 named combinations from Figma's "100 color combinations"
 # resource-library article, approximated from the color names/
 # descriptions in that article's text (the swatches on that page
-# are images, not machine-readable hex — for pixel-exact values,
-# read them off a screenshot of the swatch instead).
+# are images, not machine-readable hex
 # ============================================================
 PALETTES = {
     "Original": ["#D4EAC8", "#CAD49D", "#56A3A6", "#3E7376", "#484538"],
@@ -54,7 +53,7 @@ def resolve_colors(mode: str, palette_name: str) -> dict:
         bg = shade(dark, 0.90)
         card = shade(dark, 1.15)
         card2 = shade(dark, 1.40)
-        text = "#F4F1E9"  # off-white — near-black here would be unreadable on a dark bg
+        text = "#000"
         text_dim = light
     return {
         "bg": bg, "card": card, "card2": card2,
