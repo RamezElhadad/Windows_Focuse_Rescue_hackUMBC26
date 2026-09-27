@@ -101,5 +101,5 @@ windows-focus-rescue/
 
 ---
 
-**Made with focus** — Windows Focus Rescue
-The app was made for hacUMBC 2026
+**Made with focus** — Windows Focus Rescue\n
+The app was made for hackUMBC 2026
